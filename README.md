@@ -1,1 +1,12 @@
 # -insert-a-number-to-any-position-in-a-list
+numbers = [3,4,1,9,6,2,8]
+print(numbers)
+x = int(input("Enter the number to be inserted: "))
+y = int(input("Enter the position: "))
+numbers.insert(y,x)
+print(numbers)
+OUTPUT:
+[3, 4, 1, 9, 6, 2, 8]
+Enter the number to be inserted: 5
+Enter the position: 3
+[3, 4, 1, 5, 9, 6, 2, 8]
